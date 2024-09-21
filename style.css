@@ -1,0 +1,78 @@
+body {
+    font-family: 'roboto','sans-serif';
+}
+
+*{
+    margin: 0;
+}
+
+h1 {
+    font-size: 6rem;
+    line-height: 104px;
+    font-weight: normal;
+}
+
+h2 {
+    font-size: 3rem;
+    line-height: 56px;
+}
+
+h3 {
+    font-size: 1.5rem;
+    line-height: 32px;
+}
+
+h4 {
+    font-size: 1.25rem;
+    line-height: 24px;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+    color: white;
+    font-weight: normal;
+    padding: 70px 0;
+    text-align: center;
+}
+nav .menu {
+    display: flex;
+    width: 40%;
+    justify-content: space-between;
+    flex-direction: row;
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    height: 80px;
+    margin-top: 3rem;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav .logo {
+    font-weight: bold;
+    color: white;
+}
+
+.active {
+    font-weight: bold;
+}
+
+.logo {
+    font-size: 1.5rem;
+    line-height: 32px;
+}
+.safe-area {
+    max-width: 1200px;
+    width: 90vw;
+    margin-inline: auto;
+    min-height: 100vh;
+}
+.menu-item {
+    color: white;
+    text-decoration: none;
+}
+
+body {
+    background-color: #454545;
+}
